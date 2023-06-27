@@ -95,10 +95,10 @@ impl eframe::App for TemplateApp {
         egui::CentralPanel::default().show(ctx, |ui| {
             // The central panel the region left after adding TopPanel's and SidePanel's
 
-            ui.heading("eframe template");
-            ui.hyperlink("https://github.com/emilk/eframe_template");
+            ui.heading("viz by srid");
+            ui.hyperlink("https://github.com/srid/viz");
             ui.add(egui::github_link_file!(
-                "https://github.com/emilk/eframe_template/blob/master/",
+                "https://github.com/srid/viz/blob/master/",
                 "Source code."
             ));
             egui::warn_if_debug_build(ui);
